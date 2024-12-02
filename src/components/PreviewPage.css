@@ -1,0 +1,82 @@
+/* General Styles */
+.preview-page-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.preview-left {
+  flex: 1;
+}
+
+.preview-right {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3, h4 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"], 
+.form-group input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+.form-group input:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.submit-button, .download-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.submit-button:hover, .download-button:hover {
+  background-color: #0056b3;
+}
+
+.health-analysis {
+  margin-top: 30px;
+}
+
+.health-analysis p {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #333;
+}
